@@ -30,5 +30,10 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <h1>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
+    <div class="welcome-message">
+        <p>Thank you for choosing bCloud Bank. We are committed to providing you with the best banking experience.</p>
+        <p>If you have any questions or need assistance, feel free to reach out to our support team.</p>
+        <p>Happy banking!</p>
+    </div>
 </body>
 </html>
