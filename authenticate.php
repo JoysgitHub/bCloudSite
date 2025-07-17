@@ -3,9 +3,9 @@
 session_start();
 
 // Database connection parameters
-$host = 'bclouddb.c7isqogm4b3g.eu-central-1.rds.amazonaws.com'; // e.g., mydbinstance.123456789012.us-east-1.rds.amazonaws.com
+$host = 'amazonaws.com'; // e.g., mydbinstance.123456789012.us-east-1.rds.amazonaws.com
 $db = 'bCloudDB';
-$user = 'admin';
+$user = '';
 $pass = '';
 
 // Create connection
